@@ -23,7 +23,7 @@ import Loader from './Loader';
 
   useEffect(()=>{
     const fetchExercisesData=async()=>{
-      let exerciesData=[];
+      let exercisesData=[];
 
       if(bodyPart==='all'){
         exercisesData= await fetchData('https://exerciesdb.p.rapidapi.com/exercises', exerciseOptions);
